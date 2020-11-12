@@ -19,3 +19,4 @@ const UserController = require('../app/Controllers/Http/UserController')
 const Route = use('Route')
 
 Route.post('/user', 'UserController.create')
+Route.post('/login', 'UserController.login')
